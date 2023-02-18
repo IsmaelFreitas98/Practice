@@ -54,6 +54,10 @@ footer {
     color: #9F8C00;
 }
 
+.info-container p {
+    width: 80%;
+}
+
 .info-container h2 {
     margin-bottom: 0;
 }
@@ -67,6 +71,7 @@ footer {
     border-radius: 50%;
     height: 80%;
     box-shadow: 0 0 20px 20px #9F8C00;
+    background-color: black;
 }
 
 .content p {
