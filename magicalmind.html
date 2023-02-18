@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>MagicalMind</title>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <h1>MagicalMind</h1>
+        </header>
+        
+        <section id="game-area">
+            <button class="inputs" id="new-game">New Game</button>
+            <h2>Game Running</h2>
+            <section id="game-board">
+                <table class="game-table" id="tries">
+                    <tbody>
+                        <tr>
+                            <td class="balls-container"><img src="./Images/emptyball.png" alt="empty"></td>
+                            <td class="balls-container"><img src="./Images/emptyball.png" alt="empty"></td>
+                            <td class="balls-container"><img src="./Images/emptyball.png" alt="empty"></td>
+                            <td class="balls-container"><img src="./Images/emptyball.png" alt="empty"></td>
+                        </tr>
+                        <tr>
+                            <td class="balls-container"><img src="./Images/emptyball.png" alt="empty"></td>
+                            <td class="balls-container"><img src="./Images/emptyball.png" alt="empty"></td>
+                            <td class="balls-container"><img src="./Images/emptyball.png" alt="empty"></td>
+                            <td class="balls-container"><img src="./Images/emptyball.png" alt="empty"></td>
+                        </tr>
+                        <tr>
+                            <td class="balls-container"><img src="./Images/emptyball.png" alt="empty"></td>
+                            <td class="balls-container"><img src="./Images/emptyball.png" alt="empty"></td>
+                            <td class="balls-container"><img src="./Images/emptyball.png" alt="empty"></td>
+                            <td class="balls-container"><img src="./Images/emptyball.png" alt="empty"></td>
+                        </tr>
+                        <tr>
+                            <td class="balls-container"><img src="./Images/emptyball.png" alt="empty"></td>
+                            <td class="balls-container"><img src="./Images/emptyball.png" alt="empty"></td>
+                            <td class="balls-container"><img src="./Images/emptyball.png" alt="empty"></td>
+                            <td class="balls-container"><img src="./Images/emptyball.png" alt="empty"></td>
+                        </tr>
+                        <tr>
+                            <td class="balls-container"><img src="./Images/emptyball.png" alt="empty"></td>
+                            <td class="balls-container"><img src="./Images/emptyball.png" alt="empty"></td>
+                            <td class="balls-container"><img src="./Images/emptyball.png" alt="empty"></td>
+                            <td class="balls-container"><img src="./Images/emptyball.png" alt="empty"></td>
+                        </tr>
+                        <tr>
+                            <td class="balls-container"><img src="./Images/emptyball.png" alt="empty"></td>
+                            <td class="balls-container"><img src="./Images/emptyball.png" alt="empty"></td>
+                            <td class="balls-container"><img src="./Images/emptyball.png" alt="empty"></td>
+                            <td class="balls-container"><img src="./Images/emptyball.png" alt="empty"></td>
+                        </tr>
+                        <tr>
+                            <td class="balls-container"><img src="./Images/emptyball.png" alt="empty"></td>
+                            <td class="balls-container"><img src="./Images/emptyball.png" alt="empty"></td>
+                            <td class="balls-container"><img src="./Images/emptyball.png" alt="empty"></td>
+                            <td class="balls-container"><img src="./Images/emptyball.png" alt="empty"></td>
+                        </tr>
+                        <tr>
+                            <td class="balls-container"><img src="./Images/emptyball.png" alt="empty"></td>
+                            <td class="balls-container"><img src="./Images/emptyball.png" alt="empty"></td>
+                            <td class="balls-container"><img src="./Images/emptyball.png" alt="empty"></td>
+                            <td class="balls-container"><img src="./Images/emptyball.png" alt="empty"></td>
+                        </tr>
+                        <tr>
+                            <td class="balls-container"><img src="./Images/emptyball.png" alt="empty"></td>
+                            <td class="balls-container"><img src="./Images/emptyball.png" alt="empty"></td>
+                            <td class="balls-container"><img src="./Images/emptyball.png" alt="empty"></td>
+                            <td class="balls-container"><img src="./Images/emptyball.png" alt="empty"></td>
+                        </tr>
+                        <tr>
+                            <td class="balls-container"><img src="./Images/emptyball.png" alt="empty"></td>
+                            <td class="balls-container"><img src="./Images/emptyball.png" alt="empty"></td>
+                            <td class="balls-container"><img src="./Images/emptyball.png" alt="empty"></td>
+                            <td class="balls-container"><img src="./Images/emptyball.png" alt="empty"></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <table class="game-table" id="tries-result">
+                    <tbody>
+                        <tr>
+                            <td><span class="correct-positions">0 x </span><img src="./Images/hogwartscrest.jpeg" alt="hogwartscrest"></td>
+                            <td><span class="correct-positions">0 x </span><img src="./Images/hogwartscrestinvert.png" alt="hogwartscrestinvert"></td>
+                        </tr>
+                        <tr>
+                            <td><span class="correct-positions">0 x </span><img src="./Images/hogwartscrest.jpeg" alt="hogwartscrest"></td>
+                            <td><span class="correct-positions">0 x </span><img src="./Images/hogwartscrestinvert.png" alt="hogwartscrestinvert"></td>
+                        </tr>
+                        <tr>
+                            <td><span class="correct-positions">0 x </span><img src="./Images/hogwartscrest.jpeg" alt="hogwartscrest"></td>
+                            <td><span class="correct-positions">0 x </span><img src="./Images/hogwartscrestinvert.png" alt="hogwartscrestinvert"></td>
+                        </tr>
+                        <tr>
+                            <td><span class="correct-positions">0 x </span><img src="./Images/hogwartscrest.jpeg" alt="hogwartscrest"></td>
+                            <td><span class="correct-positions">0 x </span><img src="./Images/hogwartscrestinvert.png" alt="hogwartscrestinvert"></td>
+                        </tr>
+                        <tr>
+                            <td><span class="correct-positions">0 x </span><img src="./Images/hogwartscrest.jpeg" alt="hogwartscrest"></td>
+                            <td><span class="correct-positions">0 x </span><img src="./Images/hogwartscrestinvert.png" alt="hogwartscrestinvert"></td>
+                        </tr>
+                        <tr>
+                            <td><span class="correct-positions">0 x </span><img src="./Images/hogwartscrest.jpeg" alt="hogwartscrest"></td>
+                            <td><span class="correct-positions">0 x </span><img src="./Images/hogwartscrestinvert.png" alt="hogwartscrestinvert"></td>
+                        </tr>
+                        <tr>
+                            <td><span class="correct-positions">0 x </span><img src="./Images/hogwartscrest.jpeg" alt="hogwartscrest"></td>
+                            <td><span class="correct-positions">0 x </span><img src="./Images/hogwartscrestinvert.png" alt="hogwartscrestinvert"></td>
+                        </tr>
+                        <tr>
+                            <td><span class="correct-positions">0 x </span><img src="./Images/hogwartscrest.jpeg" alt="hogwartscrest"></td>
+                            <td><span class="correct-positions">0 x </span><img src="./Images/hogwartscrestinvert.png" alt="hogwartscrestinvert"></td>
+                        </tr>
+                        <tr>
+                            <td><span class="correct-positions">0 x </span><img src="./Images/hogwartscrest.jpeg" alt="hogwartscrest"></td>
+                            <td><span class="correct-positions">0 x </span><img src="./Images/hogwartscrestinvert.png" alt="hogwartscrestinvert"></td>
+                        </tr>
+                        <tr>
+                            <td><span class="correct-positions">0 x </span><img src="./Images/hogwartscrest.jpeg" alt="hogwartscrest"></td>
+                            <td><span class="correct-positions">0 x </span><img src="./Images/hogwartscrestinvert.png" alt="hogwartscrestinvert"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <div id="try-input">
+                <select class="inputs" name="firstball" id="firstball">
+                    <option value="gryffindor">1</option>
+                    <option value="slytherin">2</option>
+                    <option value="hufflepuff">3</option>
+                    <option value="ravenclaw">4</option>
+                </select>
+
+                <select class="inputs" name="secondball" id="secondball">
+                    <option value="gryffindor">1</option>
+                    <option value="slytherin">2</option>
+                    <option value="hufflepuff">3</option>
+                    <option value="ravenclaw">4</option>
+                </select>
+
+                <select class="inputs" name="thirdball" id="thirdball">
+                    <option value="gryffindor">1</option>
+                    <option value="slytherin">2</option>
+                    <option value="hufflepuff">3</option>
+                    <option value="ravenclaw">4</option>
+                </select>
+
+                <select class="inputs" name="fourthball" id="fourthball">
+                    <option value="gryffindor">1</option>
+                    <option value="slytherin">2</option>
+                    <option value="hufflepuff">3</option>
+                    <option value="ravenclaw">4</option>
+                </select>
+
+                <button class="inputs">Try!</button>
+
+            </div>
+
+            <aside>
+                Options: 1-<img src="./Images/gryffindorball.png" altt="gryffindorball">; 2-<img src="./Images/slytherinball.png" alt="slytherinball">; 3-<img src="./Images/hufflepuffball.png" alt="hufflepuffball">; 4-<img src="./Images/ravenclawball.png" alt="ravenclawball">;
+            </aside>
+
+        </section>
+    </body>
+    <script src="magicalscript.js"></script>
+</html>

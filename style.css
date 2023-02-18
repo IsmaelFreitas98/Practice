@@ -2,6 +2,7 @@ body {
     background-color: #292929;
     margin: 0;
     font-family: "Dancing Script", sans-serif;
+    color: #9F8C00;
 }
 
 header {
@@ -11,6 +12,12 @@ header {
     border-bottom: 2px solid #9F8C00;
     justify-content: center;
     align-items: center;
+}
+
+header h1 {
+    font-family: "Dancing Script";
+    color: #9F8C00;
+    font-size: 4em;
 }
 
 header button {
@@ -35,12 +42,13 @@ footer {
     border-top: 2px solid #9F8C00;
 }
 
-.page-selector {
+.inputs {
     font-size: 2em;
     font-family: "Dancing Script";
     color: #9F8C00;
     background-color: #292929;
     border: 1px solid #9F8C00;
+    border-radius: 5px;
     padding: 5px 7px;
     margin: 10px;
 }
@@ -87,3 +95,50 @@ footer {
     justify-content: space-between;
     margin: 0;
 }
+
+#game-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+}
+
+#game-board {
+    background-color: #232323;
+    border-radius: 5%;
+    border: 2px solid #9F8C00;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.game-table {
+    height: 90%;
+    width: 40%;
+    margin: 0 20px;
+}
+
+.game-table img {
+    height: 40px;
+}
+
+#try-input {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+aside {
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+aside img {
+    height: 40px;
+}
+
