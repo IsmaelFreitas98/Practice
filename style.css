@@ -38,8 +38,17 @@ header div {
 }
 
 footer {
+    display: flex;
+    justify-content: center;
     background-color: black;
     border-top: 2px solid #9F8C00;
+}
+
+footer a {
+    text-decoration: none;
+    color: #9F8C00;
+    font-size: 2em;
+    margin: 25px;
 }
 
 .inputs {
