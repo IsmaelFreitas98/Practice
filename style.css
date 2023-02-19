@@ -105,6 +105,19 @@ footer a {
     margin: 0;
 }
 
+.info-container a {
+    color: #9F8C00;
+}
+
+.content a{
+    height: 80%;
+    border-radius: 50%;
+}
+
+.content a img {
+    height: 100%;
+}
+
 #game-area {
     display: flex;
     flex-direction: column;
@@ -150,4 +163,3 @@ aside {
 aside img {
     height: 40px;
 }
-

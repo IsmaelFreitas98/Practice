@@ -18,5 +18,5 @@ hogwartsButton.onclick = function () {
 }
 
 gamesButton.onclick = function () {
-    bodySection.innerHTML = "<div class=\"info-container\"><h1>Wizarding Games</h1><p>Magical games to exercise the magic within!<br>Scroll Down!</p></div><hr><div class=\"info-container\"><h2>MagicalMind</h2><div class=\"content\"><a href=\"magicalmind.html\">MagicalMind</a></div></div><hr>";
+    bodySection.innerHTML = "<div class=\"info-container\"><h1>Wizarding Games</h1><p>Magical games to exercise the magic within!<br>Scroll Down!</p><hr></div><div class=\"info-container\"><h2>MagicalMind</h2><div class=\"content\"><a href=\"magicalmind.html\"><img src=\"./Images/magicmind.png\"></a><p>This is a Clone of the popular game \"MasterMind\".<br>Use your magical intuition and logic to find out the Master Key!</p></div><hr></div>";
 }
