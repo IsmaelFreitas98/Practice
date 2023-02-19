@@ -18,10 +18,10 @@
         
         <section id="game-area">
             <button class="inputs" id="new-game">New Game</button>
-            <h2>Game Running</h2>
+            <h2 id="game-status">No Game</h2>
             <section id="game-board">
-                <table class="game-table" id="tries">
-                    <tbody>
+                <table class="game-table">
+                    <tbody id="tries-table">
                         <tr>
                             <td class="balls-container"><img src="./Images/emptyball.png" alt="empty"></td>
                             <td class="balls-container"><img src="./Images/emptyball.png" alt="empty"></td>
@@ -85,7 +85,7 @@
                     </tbody>
                 </table>
 
-                <table class="game-table" id="tries-result">
+                <table class="game-table" id="results-table">
                     <tbody>
                         <tr>
                             <td><span class="correct-positions">0 x </span><img src="./Images/hogwartscrest.jpeg" alt="hogwartscrest"></td>
@@ -133,39 +133,39 @@
 
             <div id="try-input">
                 <select class="inputs" name="firstball" id="firstball">
-                    <option value="gryffindor">1</option>
-                    <option value="slytherin">2</option>
-                    <option value="hufflepuff">3</option>
-                    <option value="ravenclaw">4</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
                 </select>
 
                 <select class="inputs" name="secondball" id="secondball">
-                    <option value="gryffindor">1</option>
-                    <option value="slytherin">2</option>
-                    <option value="hufflepuff">3</option>
-                    <option value="ravenclaw">4</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
                 </select>
 
                 <select class="inputs" name="thirdball" id="thirdball">
-                    <option value="gryffindor">1</option>
-                    <option value="slytherin">2</option>
-                    <option value="hufflepuff">3</option>
-                    <option value="ravenclaw">4</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
                 </select>
 
                 <select class="inputs" name="fourthball" id="fourthball">
-                    <option value="gryffindor">1</option>
-                    <option value="slytherin">2</option>
-                    <option value="hufflepuff">3</option>
-                    <option value="ravenclaw">4</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
                 </select>
 
-                <button class="inputs">Try!</button>
+                <button class="inputs" id="try-combination">Try!</button>
 
             </div>
 
             <aside>
-                Options: 1-<img src="./Images/gryffindorball.png" altt="gryffindorball">; 2-<img src="./Images/slytherinball.png" alt="slytherinball">; 3-<img src="./Images/hufflepuffball.png" alt="hufflepuffball">; 4-<img src="./Images/ravenclawball.png" alt="ravenclawball">;
+                Options: 1-<img src="./Images/gryffindorball.png" alt="gryffindorball">; 2-<img src="./Images/slytherinball.png" alt="slytherinball">; 3-<img src="./Images/hufflepuffball.png" alt="hufflepuffball">; 4-<img src="./Images/ravenclawball.png" alt="ravenclawball">;
             </aside>
 
         </section>
